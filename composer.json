@@ -1,0 +1,23 @@
+{
+	"name": "gozoro/yii2-helpers",
+	"description": "Helpers for Yii2 Framework. Extends standard helpers.",
+	"keywords":["yii2", "helpers", "html", "json", "url"],
+	"homepage": "https://github.com/gozoro/yii2-helpers",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Gozoro",
+			"email": "gozoro@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.5.9",
+		"yiisoft/yii2": "~2.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"gozoro\\yii2\\helpers\\": "src"
+		}
+	}
+}
